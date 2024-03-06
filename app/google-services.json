@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1088687878014",
+    "firebase_url": "https://fire-detection-app-d7e3a.firebaseio.com",
+    "project_id": "fire-detection-app-d7e3a",
+    "storage_bucket": "fire-detection-app-d7e3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088687878014:android:99c03dcbcf98f730f70d2f",
+        "android_client_info": {
+          "package_name": "com.example.firedetectionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088687878014-qjqkfqoaq4cb3472kqvgicbanp3udofl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firedetectionapp",
+            "certificate_hash": "8d616ced7f603c91c6366c76d0920ead95d3b8cd"
+          }
+        },
+        {
+          "client_id": "1088687878014-1up7942vrsb94v85h2kjeqe6pck71f19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ4lVnpwsbEMsSBfgKiOKClgtU6i3g_HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088687878014-1up7942vrsb94v85h2kjeqe6pck71f19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

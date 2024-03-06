@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Safety04"
+    android:orientation="vertical"
+    android:background="#E0E0E0">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtSafe01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Factors that has effect on stop spreading a fire"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#FF8C00"
+                android:textSize="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="HIGH PRIORITY"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 01: HUMAN BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="01. Are the people aware of the fire separation?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q1_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q1_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q1_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="02. Are access and logistical facilities provided for the fire extinguisher?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q2_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q2_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q2_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="03. Do you consult fire engineers to plan safety and control the spread of fire?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q3_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q3_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q3_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="04. Can employees who are aware of the dangers of reporting hazards be assured?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q4_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q4_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q4_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 02: EQUIPMENT FAULTS"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="05. Are high pressure laminate panels installed?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q5_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q5_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q5_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="06. Can mechanical ventilation and air conditioning systems be regulated?(Fans)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q6_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q6_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q6_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="07.Can fire detection systems be installed and detectors installed?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q7_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q7_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q7_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="08. Are the fire extinguishers connected with the fire brigade or remote observation point?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q8_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q8_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q8_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="09. Is it possible to provide additional facilities for fire fighting (fire extinguisher, fire lobby,…)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q9_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q9_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q9_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="10. Do fire alarm systems check for lost or disconnected batteries?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q10_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q10_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q10_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="11. Are fire alarms in the right place? (Not the warming area)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q11_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q11_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q11_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 03: MATERIAL BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="12. Does the warehouse handle the fuel and fuel sourese?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q12_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q12_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q12_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="13. Do you use fire insulation, electrical insulation and thermal insulation?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q13_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q13_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q13_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="14. Are concerns regarding the control of ignition sources?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q14_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q14_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q14_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="15. Is the use of thermal conductive materials minimum?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q15_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q15_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q15_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 04: OTHERS BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="16. Are there minimum fire safety standards and guidelines for building premises?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q16_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q16_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q16_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="17. Can you control the smoke in a building? (Using high pressure)."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q17_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q17_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q17_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="18. Are there compartments in a building? (Smoke, heat, and barrier to the spread of toxic gases)."
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q18_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q18_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q18_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="19.Are there any cavity fill insulation systems? (Heat insulation)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q19_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q19_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q19_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="20. Are there non-structural cladding systems for exterior walls?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q20_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q20_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q20_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="21. Are fire barrier management and maintenance performed? (Fire door: Resistance, lack of proper,…)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q21_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q21_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q21_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="22. Are objects placed so as not to obstruct the corridor and block the exit?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q22_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q22_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q22_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="23.Is the outside environment set up so as not to block the exit?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q23_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q23_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q23_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="24. Are broken items in a building renovated? (Broken windows and doors, ceiling hole, broken walls, ..)"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q24_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q24_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q24_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SECONDARY PRIORITY"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 01: HUMAN BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="25.Are everyone in a building aware of the escape plan?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q25_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q25_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q25_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="26. Are there warning devices installed for the deaf and hard of hearing?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q26_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q26_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q26_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="27. Are there remote control door opening equipment installations for people with physical challenges?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q27_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q27_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q27_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="28. Do you have extra batteries for a fire detection system?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q28_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q28_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q28_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 01: OTHERS BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="29.Are there proper space management?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q29_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q29_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q29_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="30. Are the escape routes easily accessible and connected to the final exit?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q30_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q30_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q30_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="LOW PRIORITY"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Category 01: HUMAN BASED"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="31.Are there appropriate facilities for disabled people?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q31_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q31_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q31_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="32.Are people concerned about mobility issues?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q32_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q32_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q32_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="33.Have children's confidence in fire extinguishers been established?"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q33_1"
+                android:text="Yes"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q33_2"
+                android:text="No"
+                android:textSize="15dp"/>
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/S4Q33_3"
+                android:text="Not Applicable "
+                android:textSize="15dp"/>
+
+            <Button
+                android:id="@+id/Safe02PreviousBtn"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/button_boader"
+                android:text="PREVIOUS"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+
+
+
+            <Button
+                android:id="@+id/Safe04ConfirmBtn"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_boader"
+                android:text="CONFIRM"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
